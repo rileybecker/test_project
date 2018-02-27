@@ -1,3 +1,132 @@
-body{
-  background-color: pink;
+/*
+font-family: 'Satisfy', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Spirax', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Quicksand', sans-serif;
+*/
+body {
+  background: #aaa;
+  padding: 0px;
+  margin: 0px;
+}
+.background {
+  text-align: center;
+  background-color: #b2bdcf;
+  padding: 20px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #969db0;
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #aaeefc;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #61b0ee;
+  color: black;
+}
+#about {
+  text-align: center;
+  background-color: #a6eeff;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+#learned {
+  text-align: center;
+  background-color: #7acfed;
+  border-radius: 25px;
+}
+#goals {
+  text-align: center;
+  background-color: #48c0e5;
+  border-radius: 25px;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-style: 600;
+  font-size: 35px;
+  text-align: center;
+  color: ;
+  padding-top: 10px;
+}
+.subtitle {
+  font-family: "Quicksand", sans-serif;
+  font-size: 23px;
+  font-style: italics;
+  text-align: left;
+  color: ;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+.paragraph {
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  color: ;
+}
+.font1 {
+  font-family: "Spirax", cursive;
+  font-size: 20px;
+}
+.font2 {
+  font-family: "Satisfy", cursive;
+  font-size: 20px;
+}
+.font3 {
+  font-family: "Cookie", cursive;
+  font-size: 25px;
+}
+.color1 {
+  /*plum*/
+  color: #8f5170;
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  font-style: 700;
+}
+.color2 {
+  /*pear*/
+  color: #5fbd86;
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  font-style: 700;
+}
+.color3 {
+  /*peach*/
+  color: #e6c3b4;
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  font-style: 700;
+}
+img {
+  height: 325px;
+  width: 1240px;
+  border-radius: 15px;
 }
